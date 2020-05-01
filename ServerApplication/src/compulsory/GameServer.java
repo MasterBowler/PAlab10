@@ -6,9 +6,6 @@ import java.net.Socket;
 
 public class GameServer {
 
-    //create a ServerSocket running at a specified port
-    //the server will receive requests from clients and execute them
-    //if the stop command is received return to the client "Server stopped" else "Server received the request ..."
     private static final int PORT = 8100;
     private boolean running;
 
