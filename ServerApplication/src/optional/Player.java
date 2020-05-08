@@ -1,5 +1,8 @@
 package optional;
 
+/**
+ * A player has an ID and a name
+ */
 public class Player {
 
     private int playerID;
